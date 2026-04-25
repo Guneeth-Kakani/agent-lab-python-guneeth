@@ -37,6 +37,14 @@ uv run uvicorn app.main:app --reload  # Verify dev server starts
 **Templates**: `base.html` (session mgmt), `start_screen.html`, `game_screen.html`, components  
 **Styling**: Custom CSS utilities; avoid generic AI aesthetics (see frontend-design.instructions.md)
 
+## Design Guide
+
+**Theme**: Cinematic theater experience with dramatic lighting, deep reds, and gold accents  
+**Typography**: Cinzel (serif) for headings, Orbitron (futuristic) for UI, Source Serif Pro for content  
+**Colors**: Theater dark (#0a0a0a), blood red (#8b0000), gold (#fbbf24), cyan (#06b6d4)  
+**Effects**: Curtain animations, sweeping spotlights, glow effects, backdrop blur  
+**Principles**: Avoid generic AI aesthetics - commit to distinctive, cohesive themes with high-impact animations
+
 ## Related Guidance
 
 - [frontend-design.instructions.md](.github/instructions/frontend-design.instructions.md) — Build distinctive UIs, not generic AI
